@@ -1,0 +1,29 @@
+.photo-item img{
+    width: 100%;
+    max-height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+#home .photo-item h2{
+    margin-bottom: .2em;
+}
+.photo-item h2{
+    text-align: center;
+}
+
+.photo-author{
+    text-align: left;
+    margin-left: 1em;
+}
+
+.photo-author a{
+    font-weight: bold;
+    color: rgb(189, 45, 45);
+}
+
+.photo-author a:hover{
+    color: red;
+}

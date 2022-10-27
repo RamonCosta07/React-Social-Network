@@ -1,0 +1,91 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FAFA;
+  color: #262626;
+}
+
+a{
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+/* Quando ativar o link */
+.active{
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label span{
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: #AAA;
+  font-size: .7em;
+}
+
+input{
+  background-color: rgb(228, 218, 218);
+  border: 1px solid #555;
+  border-radius: 2px;
+  padding: 8px 6px;
+  outline: none;
+  margin-bottom: .6em;
+}
+
+input::placeholder{
+  color: rgb(134, 33, 101);
+}
+
+.btn,
+button,
+input[type="submit"]{
+  background-color: rgb(235, 53, 68);
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 8px;
+  opacity: .8;
+  font-size: 1em;
+}
+
+.btn:hover,
+button:hover,
+input[type="submit"]:hover{
+  opacity: 1;
+  font-weight: bold;
+}
+
+input[type="submit"]{
+  margin-bottom: 1em;
+}
+
+input:disabled{
+  cursor: not-allowed;
+  background-color: rgb(139, 136, 136);
+  font-weight: bold;
+}
+
+.cancel-btn{
+  background-color: rgb(241, 119, 5);
+}
+
+.hide{
+  display: none;
+}

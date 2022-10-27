@@ -1,0 +1,15 @@
+.like{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.like svg{
+    font-size: 1.5em;
+    cursor: pointer;
+    color: rgb(211, 23, 23);
+}
+
+.like p {
+    margin-left: 1em;
+}
